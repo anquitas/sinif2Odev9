@@ -1,0 +1,23 @@
++ CSV_Diyalogunda singleton paterni kullanıldı
+	- bu sınıf ile veri bir veri formatı olan CSV dosyasından çekilde
+	- program boyunca tek bir diyalog nesnesi yaratılması sağlandı
+	- oluşturma ve erişim için lazy instalation yöntemi seçildi
+	- indexer ile nesne içerisindeki veriye kolay ve sıralı erişim sağlandı
+	- IEnumarable arayüzü uygulanarak sınıf foreach iterasyonuna uygun hale getirildi
++ Rehber, Kisi sınıfları arasında komuta zinciri (chain of command) paterni kullanıldı
+	- her bir sınıf birbiri içerisinde sorumluluk aktarımı yaparak ilerliyor
+	- sadece rehber sınıfı dışarıdan sisteme erişim sağlıyor
++ Dugum sınıfı ağacın yapısını oluşturan sınıf olarak tasarlandı ve ikili arama ağacı veri tipine uygun operasyonlar eklendi
+	- duğümde IAgaclanabilir arayüzü kullanıldı, bu arayüzü uygulayan bir nesne İkiliAramaAgaci na veri olarak eklenebilir
++ IkiliAramaAgaci sinifi kök düğümü yani ağacın yapısını taşıması için tasarlandı ve düğüm operasyonlarının dışarıya erişimi bu sınıfa verildi
+	- operasyonlar ve erişim bu sınıf üzerinden düğüm sınıfına sorumluluk aktarımı ile yapılır (chain of command)
++ Rehber sınıfı veri modeli olarak IkiliAramaAgacini kullanır, bu nesneye Rehber dışından erişim kapalıdır
+	- buradaki oerasyonları rehber sınıfı kontrol eder
++ Uygulama sınıfı ve Menu sınıfları arasında sorumluluk aktarım zinciri vardır
+	- kullanıcı menünün seçenek ve fonksiyon gibi hatları ile ilgilenir iç mekanizması iki sınıf arasında paylaşlır
++ nesnelerin her birinde oluşturucular gizli ve yaratıcı metodlar kullanılır, yani yeni nesne yaratımı sınıfın kontrolü altında ve dışarıya kapalıdır
+	- bazı yerlerde bir nesne farklı bir nesnenin yaratımı için kullanılmıştır
++ istenildiği gibi TC sadece kişi oluşturulurken girilir değiştirilemez
++ kişilerin alfabetik sıralaması için ortadaKök dolaşı yöntemi kullanıldı
+	- ilk önce soyisim, bunlar aynıysa isim olacak şekilde
+	

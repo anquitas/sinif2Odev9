@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Agaclar.Dugum" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAoAgABgAEAAAAAAAgAAAAAQIAAEAAIAAAAAA=</HashCode>
+      <FileName>Agaclar\Dugum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agaclar.IkiliAramaAgaci" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAIAAACAAAAAAAAgAAEAAhAAAAAAAQEAAAAAA=</HashCode>
+      <FileName>Agaclar\IkiliAramaAgaci.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sinif2odev9.Program" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAgAAAAAAAAKAAAEABAhAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RehberSistemi.CSV_Diyalogu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAkAAAAAAACBAACAADIAAAAAAAAAAAAABAAAAAAgA=</HashCode>
+      <FileName>RehberSistemi\CSV_Diyalogu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RehberSistemi.Kisi" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAAAAAAIEAAAAAACIAkAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>RehberSistemi\Kisi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RehberSistemi.Rehber" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAACAAIAAAAAAAAAAAAAAAEAAgAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>RehberSistemi\Rehber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Agaclar.IAgaclanabilir" Collapsed="true">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAEAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Agaclar\IAgaclanabilir.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
